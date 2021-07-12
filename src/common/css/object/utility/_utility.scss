@@ -1,0 +1,76 @@
+.sp {
+  display: none !important;
+}
+
+@include sp {
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+}
+
+/* display */
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.d-i-block {
+  display: inline-block !important;
+}
+
+.d-table {
+  display: table !important;
+}
+
+.d-t-row {
+  display: table-row !important;
+}
+
+.d-t-cell {
+  display: table-cell !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-i-flex {
+  display: inline-flex !important;
+}
+
+/* overflow */
+.of- {
+  &auto {
+    overflow: auto;
+  }
+  &hidden {
+    overflow: hidden;
+  }
+  &auto {
+    overflow: auto;
+  }
+}
+
+/* visibility */
+.hidden {
+  visibility: hidden !important;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+/* hover */
+.hover-opacity {
+  @include hover-opacity;
+}

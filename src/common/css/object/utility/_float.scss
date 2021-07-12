@@ -1,0 +1,20 @@
+/* float */
+.fl- {
+  &left {
+    float: left !important;
+  }
+  &right {
+    float: right !important;
+  }
+  &none {
+    float: none !important;
+  }
+  @include sp {
+    &none-sp {
+      float: none !important;
+    }
+    &clear-sp {
+      clear: both !important;
+    }
+  }
+}

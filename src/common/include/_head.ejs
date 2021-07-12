@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# <%= page['type'] %>: http://ogp.me/ns/<%= page['type'] %>#">
+		<!-- meta -->
+		<meta charset="UTF-8">
+		<meta name="robots" content="index,follow">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="format-detection" content="telephone=no">
+		<meta name="description" content="<%= page['description'] %>" />
+		<meta name="keywords" content="<%= page['keywords'] %>" />
+
+		<!-- og -->
+		<meta property="og:title" content="<%= page['title'] %>" />
+		<meta property="og:type" content="<%= page['type'] %>" />
+		<meta property="og:url" content="https://<%= page['url'] %>" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="" />
+		<meta property="fb:app_id" content="" />
+		<title><%= page['title'] %></title>
+
+		<!-- icon -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+		<!-- seo -->
+		<link rel="canonical" href="https://<%= page['url'] %>">
+
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="/common/css/common.css">
+
+		<!-- JavaScript -->
+		<script src="/common/js/vender/jquery.min.js" defer></script>
+		<script src="/common/js/common.js" defer></script>
+	</head>
+
+	<body class="<%= page['class'] %>">
+		<noscript>
+			<p>このサイトではJavaScript機能をONにしてご利用ください。</p>
+		</noscript>

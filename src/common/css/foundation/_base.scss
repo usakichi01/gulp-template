@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-root;
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: ($font-size-base * 0.1 + rem);
+    font-weight: 400;
+    line-height: $line-height-default;
+    color: $color-text-base;
+    -webkit-text-size-adjust: 100%;
+    background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text-base;;
+  transition: color $trantion-time-normal $easing-normal, border-color $trantion-time-normal $easing-normal, background-color $trantion-time-normal $easing-normal;
+  img {
+    transition: opacity $trantion-time-normal $easing-normal;
+  }
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}

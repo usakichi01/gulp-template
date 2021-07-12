@@ -1,0 +1,29 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  @content;
+}
+
+@mixin content-width($width:$default-content-pc + $default-content-pc * 2) {
+  max-width: $width;
+  width: 100%;
+	margin-left: auto;
+  margin-right: auto;
+  @include sp {
+    max-width: 100%;
+    padding-left: $default-content-inner-sp;
+    padding-right: $default-content-inner-sp;
+  }
+  @content;
+}
+
+@mixin hover-opacity {
+	transition: opacity $trantion-time-normal $easing-normal;
+	&:hover {
+		opacity: $opacity;
+	}
+  @content;
+}

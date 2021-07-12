@@ -1,0 +1,31 @@
+
+/* text-align */
+.text- {
+  &center {
+    text-align: center !important;
+  }
+  &left {
+    text-align: left !important;
+  }
+  &right {
+    text-align: right !important;
+  }
+}
+
+/* vertical-align */
+.va- {
+  &top {
+    vertical-align: top !important;
+  }
+  &middle {
+    vertical-align: middle !important;
+  }
+  &bottom {
+    vertical-align: bottom !important;
+  }
+}
+
+/* white-space */
+.ws-nowrap {
+  white-space: nowrap !important;
+}

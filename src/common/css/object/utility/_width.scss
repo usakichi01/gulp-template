@@ -1,0 +1,25 @@
+
+/* width(px) 5-400 */
+$w-min: 1;
+$w-max: 80;
+@for $i from $w-min through $w-max {
+  .w-#{$i * 5} {
+    width: #{$i * 5}px !important;
+  }
+}
+/* width(%) 5-100 */
+$w-per-min: 1;
+$w-per-max: 20;
+@for $i from $w-per-min through $w-per-max {
+  .w-#{$i * 5}per {
+    width: #{$i * 5}% !important;
+  }
+}
+/* width(em) 5-20 */
+$w-em-min: 1;
+$w-em-max: 20;
+@for $i from $w-em-min through $w-em-max {
+  .w-#{$i * 1}em {
+    width: #{$i * 1}em !important;
+  }
+}

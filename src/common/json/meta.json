@@ -1,0 +1,9 @@
+{
+	"template": {
+		"title": "ページタイトル",
+		"description": "ディスクリプション",
+		"type": "website",
+		"class": "home",
+		"url": "/"
+	}
+}

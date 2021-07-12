@@ -1,0 +1,8 @@
+
+/* clearfix */
+.clearfix {
+  @include clearfix();
+}
+.clear-both {
+  clear: both !important;
+}

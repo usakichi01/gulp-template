@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+@import "./object/theme/**";
+@import "./foundation/variable";
+@import "./foundation/dimension";
+@import "./foundation/mixin/**";
+/* Base style
+-----------------------------------------------------------*/
+/*----- reset -----*/
+@import "./foundation/ress";
+/*----- default -----*/
+@import "./foundation/base";
+
+
+/* Layout style
+-----------------------------------------------------------*/
+/*----- header -----*/
+@import "./layout/header";
+/*----- footer -----*/
+@import "./layout/footer";
+
+
+/* Mmodule style
+-----------------------------------------------------------*/
+/*----- XXX -----*/
+// @import "./object/component/";
+
+
+/* XXX style
+-----------------------------------------------------------*/
+// 以下はページごとのスタイルを追加ください。
+// @import "./object/project/";
+
+
+/* Utility
+-----------------------------------------------------------*/
+@import "./object/utility/**";
+

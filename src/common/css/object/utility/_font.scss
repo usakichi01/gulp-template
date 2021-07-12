@@ -1,0 +1,29 @@
+/* font-weight */
+.fw {
+  &-normal {
+    font-weight: normal !important;
+  }
+
+  &-bold {
+    font-weight: bold !important;
+  }
+}
+
+/* font-size */
+.fs- {
+  &sm {
+    font-size: 1.4rem !important;
+  }
+  &md {
+    font-size: 1.6rem !important;
+  }
+  &lg {
+    font-size: 1.8rem !important;
+  }
+  &xl {
+    font-size: 2.2rem !important;
+  }
+  &xxl {
+    font-size: 2.2rem !important;
+  }
+}

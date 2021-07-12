@@ -1,0 +1,21 @@
+
+/* padding */
+$padding-min: 0;
+$padding-max: 20;
+@for $i from $padding-min through $padding-max {
+  .pt-#{$i * 5} {
+    padding-top: #{$i * 5}px !important;
+  }
+
+  .pb-#{$i * 5} {
+    padding-bottom: #{$i * 5}px !important;
+  }
+
+  .pl-#{$i * 5} {
+    padding-left: #{$i * 5}px !important;
+  }
+
+  .pr-#{$i * 5} {
+    padding-right: #{$i * 5}px !important;
+  }
+}
